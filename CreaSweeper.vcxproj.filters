@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\Outils">
+      <UniqueIdentifier>{d2829fb4-a3c5-4275-a686-c7e135f1315a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Pathfinder">
+      <UniqueIdentifier>{44de50e7-0507-44a7-b9f7-dd7852b4d6f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Menu">
+      <UniqueIdentifier>{6e4c043e-1802-4c4d-832d-963c56455237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Scores">
+      <UniqueIdentifier>{d3caa05d-a133-40a4-b7b2-2fb5e515ee42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Menu">
+      <UniqueIdentifier>{de6af340-6f10-49e7-b966-43772cb236c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Scores">
+      <UniqueIdentifier>{9aaeaefe-f101-4237-b75c-0d1a2ad989cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\PathFinder">
+      <UniqueIdentifier>{98c61b65-0ad6-4c89-a1cc-c8d180846deb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Outils">
+      <UniqueIdentifier>{83b309a1-255b-4de1-ba89-93b80c60d9f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Partie">
+      <UniqueIdentifier>{2dbeeab4-48fc-4801-9f06-6494d30bb44c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Partie">
+      <UniqueIdentifier>{1fadf586-7d5c-4293-962f-7ee70dc2f249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Perso">
+      <UniqueIdentifier>{29340e5c-0c49-48a7-a1f6-01fb9bf8fc6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Perso">
+      <UniqueIdentifier>{dc894e13-279a-4972-91c6-d0de0b419c97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame.cpp">
+      <Filter>Fichiers sources\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Cintro.cpp">
+      <Filter>Fichiers sources\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>Fichiers sources\Outils</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmenu.cpp">
+      <Filter>Fichiers sources\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Ccredits.cpp">
+      <Filter>Fichiers sources\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Coptions.cpp">
+      <Filter>Fichiers sources\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Cscores.cpp">
+      <Filter>Fichiers sources\Scores</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpartie.cpp">
+      <Filter>Fichiers sources\Partie</Filter>
+    </ClCompile>
+    <ClCompile Include="Cnode.cpp">
+      <Filter>Fichiers sources\Pathfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="CpathFinder.cpp">
+      <Filter>Fichiers sources\Pathfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="Cperso.cpp">
+      <Filter>Fichiers sources\Perso</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneralConfig.h">
+      <Filter>Fichiers d%27en-tête\Outils</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame.hpp">
+      <Filter>Fichiers d%27en-tête\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Cintro.hpp">
+      <Filter>Fichiers d%27en-tête\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteManager.hpp">
+      <Filter>Fichiers d%27en-tête\Outils</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmenu.hpp">
+      <Filter>Fichiers d%27en-tête\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Ccredits.hpp">
+      <Filter>Fichiers d%27en-tête\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Coptions.hpp">
+      <Filter>Fichiers d%27en-tête\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Cscores.hpp">
+      <Filter>Fichiers d%27en-tête\Scores</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpartie.hpp">
+      <Filter>Fichiers d%27en-tête\Partie</Filter>
+    </ClInclude>
+    <ClInclude Include="Cnode.hpp">
+      <Filter>Fichiers d%27en-tête\PathFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpathfinder.hpp">
+      <Filter>Fichiers d%27en-tête\PathFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="Cperso.hpp">
+      <Filter>Fichiers d%27en-tête\Perso</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

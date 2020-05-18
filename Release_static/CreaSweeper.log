@@ -1,0 +1,56 @@
+﻿La génération a démarré 28/11/2012 14:30:03.
+     1>Projet "D:\SVN\2012-2013\Sections\Prog3\Colaisseau Yann\Prog\TD\CreaSweeper\CreaSweeper\CreaSweeper.vcxproj" sur le nœud 2 (build cible(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Le répertoire Output ne se termine pas par une barre oblique finale.  Cette instance de build ajoutera une barre oblique, comme requis, pour permettre l'évaluation correcte du répertoire Output.
+     1>InitializeBuildStatus:
+         Mise à jour de l'horodatage "Release_static\CreaSweeper.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\SVN\2012-2013\Sections\Prog3\Colaisseau Yann\Prog\TD\CreaSweeper\\bin\Release_static\\..\..\CreaSweeper\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D SFML_STATIC /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release_static\\" /Fd"Release_static\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Ccredits.cpp CGame.cpp Cintro.cpp Cmenu.cpp Cnode.cpp Coptions.cpp Cpartie.cpp CpathFinder.cpp Cperso.cpp Cscores.cpp main.cpp SpriteManager.cpp
+         Ccredits.cpp
+         CGame.cpp
+     1>d:\svn\2012-2013\sections\prog3\colaisseau yann\prog\td\creasweeper\creasweeper\Cscores.hpp(17): warning C4091: 'typedef ' : ignoré à gauche de 'T_Score' quand aucune variable n'est déclarée
+         Cintro.cpp
+         Cmenu.cpp
+         Cnode.cpp
+         Coptions.cpp
+         Cpartie.cpp
+     1>d:\svn\2012-2013\sections\prog3\colaisseau yann\prog\td\creasweeper\creasweeper\Cscores.hpp(17): warning C4091: 'typedef ' : ignoré à gauche de 'T_Score' quand aucune variable n'est déclarée
+         CpathFinder.cpp
+     1>CpathFinder.cpp(196): warning C4018: '<' : incompatibilité signed/unsigned
+     1>CpathFinder.cpp(212): warning C4018: '<' : incompatibilité signed/unsigned
+     1>CpathFinder.cpp(246): warning C4018: '<' : incompatibilité signed/unsigned
+     1>CpathFinder.cpp(341): warning C4018: '<' : incompatibilité signed/unsigned
+     1>CpathFinder.cpp(355): warning C4018: '<' : incompatibilité signed/unsigned
+         Cperso.cpp
+         Cscores.cpp
+     1>d:\svn\2012-2013\sections\prog3\colaisseau yann\prog\td\creasweeper\creasweeper\Cscores.hpp(17): warning C4091: 'typedef ' : ignoré à gauche de 'T_Score' quand aucune variable n'est déclarée
+         main.cpp
+     1>d:\svn\2012-2013\sections\prog3\colaisseau yann\prog\td\creasweeper\creasweeper\Cscores.hpp(17): warning C4091: 'typedef ' : ignoré à gauche de 'T_Score' quand aucune variable n'est déclarée
+     1>main.cpp(7): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+         SpriteManager.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\SVN\2012-2013\Sections\Prog3\Colaisseau Yann\Prog\TD\CreaSweeper\\bin\Release_static\CreaSweeper.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\SVN\2012-2013\Sections\Prog3\Colaisseau Yann\Prog\TD\CreaSweeper\\bin\Release_static\\..\..\CreaSweeper\lib" "sfml-audio-s.lib" "sfml-graphics-s.lib" "sfml-main.lib" "sfml-system-s.lib" "sfml-window-s.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release_static\CreaSweeper.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\SVN\2012-2013\Sections\Prog3\Colaisseau Yann\Prog\TD\CreaSweeper\bin\Release_static\CreaSweeper.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\SVN\2012-2013\Sections\Prog3\Colaisseau Yann\Prog\TD\CreaSweeper\\bin\Release_static\CreaSweeper.lib" /MACHINE:X86 Release_static\Ccredits.obj
+         Release_static\CGame.obj
+         Release_static\Cintro.obj
+         Release_static\Cmenu.obj
+         Release_static\Cnode.obj
+         Release_static\Coptions.obj
+         Release_static\Cpartie.obj
+         Release_static\CpathFinder.obj
+         Release_static\Cperso.obj
+         Release_static\Cscores.obj
+         Release_static\main.obj
+         Release_static\SpriteManager.obj
+     1>LINK : warning LNK4098: conflit entre la bibliothèque par défaut 'LIBCMT' et les autres bibliothèques ; utilisez /NODEFAULTLIB:library
+         Génération de code en cours
+         Fin de la génération du code
+         CreaSweeper.vcxproj -> D:\SVN\2012-2013\Sections\Prog3\Colaisseau Yann\Prog\TD\CreaSweeper\\bin\Release_static\CreaSweeper.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\SVN\2012-2013\Sections\Prog3\Colaisseau Yann\Prog\TD\CreaSweeper\\bin\Release_static\CreaSweeper.exe;#1" /manifest Release_static\CreaSweeper.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Suppression du fichier "Release_static\CreaSweeper.unsuccessfulbuild".
+         Mise à jour de l'horodatage "Release_static\CreaSweeper.lastbuildstate".
+     1>Génération du projet "D:\SVN\2012-2013\Sections\Prog3\Colaisseau Yann\Prog\TD\CreaSweeper\CreaSweeper\CreaSweeper.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:05.85
